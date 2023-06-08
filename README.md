@@ -6,7 +6,7 @@
 # Görev 1: Master Node Kaydetme Kısmına kadar herşeyi yapın.
 
 
-# Loglar düzgün aksın, screenden çıkın
+# screen içinde loglar akmaya başladıktan sonra 'CTRL a d' ile screenden çıkın
 
 
 
