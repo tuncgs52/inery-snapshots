@@ -1,9 +1,9 @@
 # inery-snapshots
-#İNERY — SNAPSHOT
+# İNERY — SNAPSHOT
 
-#İlk önce node kurmanız lazım,
+# İlk önce node kurmanız lazım,
 
-> ## [kurulum linki] (https://github.com/brsbrc/Testnetler-ve-Rehberler/tree/main/Inery)
+> ## [kurulum linki](https://github.com/brsbrc/Testnetler-ve-Rehberler/tree/main/Inery)
 
 Görev 1: Master Node Kaydetme Kısmına kadar herşeyi yapın.
 
