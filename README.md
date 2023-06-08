@@ -8,7 +8,9 @@
 
 # Loglar düzgün aksın, screenden çıkın
 
+
 # İnery screenini Vs Silmeyin.
+
 
 # 2-Ana ekranda, Terminalde
 
@@ -17,6 +19,7 @@ pkill nodine
 ```
 
 # Diyoruz. Dediğimizde loglar durucak. Sakın dokunmayın, CTRL A D yapıp screenden çıkıp. Ana ekranda devam edin
+
 
 # Daha sonra
 
@@ -32,19 +35,27 @@ pkill nodine
 
 # birkaç kez tekrarlayın.
 
+
 # 3-) Terminalde aşağıdaki linkten snapshotu indirin.
+
 
 > ## [snapshot linki](https://snapshot.inery.io/)  sitesine girin “curl” ile başlayan “.bin” ile biten kodu sunucuya yapıştırın.
 
+
 # Uzunca ismi olan snapshot dosyası inicek, ortalama 15mb olmasi gerek, wincp ile girip bakın. eğer doğru inmemişse, sayfayı yenileyip yenisini indirin.
+
 
 # 4-)Daha Sonra uzunca ismi olan snapshots dosyasını wincp ile
 
+
 inery-node/inery.setup/master.node/blockchain/data/snapshots
+
 
 # Klasörünün içine atıyoruz.
 
+
 # 5-)Daha sonra şu 2 klasörü silin,
+
 
 ```
 cd
