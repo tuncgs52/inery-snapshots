@@ -1,9 +1,9 @@
 # inery-snapshots
-İNERY — SNAPSHOT
+#İNERY — SNAPSHOT
 
-1-)İlk önce node kurmanız lazım,
+#İlk önce node kurmanız lazım,
 
-https://github.com/brsbrc/Testnetler-ve-Rehberler/tree/main/Inery
+> ## [kurulum linki] (https://github.com/brsbrc/Testnetler-ve-Rehberler/tree/main/Inery)
 
 Görev 1: Master Node Kaydetme Kısmına kadar herşeyi yapın.
 
@@ -45,9 +45,11 @@ inery-node/inery.setup/master.node/blockchain/data/snapshots
 Klasörünün içine atıyoruz.
 
 5-)Daha sonra şu 2 klasörü silin,
+
 ```
 cd
 ```
+
 ```
 rm -r inery-node/inery.setup/master.node/blockchain/data/blockchain
 ```
@@ -80,6 +82,7 @@ SNAPSHOT_İSMİ
 
 7-) DEDİĞİM YERLERİ DÜZENLEYİN.
 
+```
 #!/bin/bash
 DATADIR="./blockchain"
 if [ ! -d $DATADIR ]; then
@@ -116,20 +119,40 @@ nodine --snapshot $DATADIR"/data/snapshots/SNAPSHOT_İSMİ" \
 --p2p-peer-address master3.blockchain-servers.world:9010 \
 >> $DATADIR"/nodine.log" 2>&1 & \
 echo $! > $DATADIR"/ined.pid"
+```
 
 Kaydedip Çıkın
 
 8-) En son şu kodları girin. Terminalde
-“cd"
 
+```
+cd
+```
+
+```
 cd inery-node/inery.setup/master.node
+```
 
-“chmod +x snapshots.sh”
 
-“cd; source .bashrc; cd -”
+```
+chmod +x snapshots.sh
+```
 
-“./snapshots.sh”
+```
+cd; source .bashrc; cd -
+```
 
-Bunlarıda Girdikten Sonra “screen -r inery" yazın Bloklara bakabilirsiniz esleşmesi 5dk sürer
+```
+./snapshots.sh
+```
+
+
+Bunlarıda Girdikten Sonra
+
+```
+screen -r inery
+```
+
+yazın Bloklara bakabilirsiniz esleşmesi 5dk sürer
 
 Bunlarıda Yaptıktan sonra Kurulum floodundaki, Hesap onaylama kısmından devam edin
