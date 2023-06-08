@@ -1,4 +1,3 @@
-# inery-snapshots
 # İNERY — SNAPSHOT
 
 # İlk önce node kurmanız lazım,
