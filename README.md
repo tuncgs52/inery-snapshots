@@ -24,13 +24,13 @@ pkill nodine
 # Daha sonra
 
 ```
-# pidof nodine
+pidof nodine
 ```
 
 # Dediğimizde tepki yoksa devam ediyoruz. Tepki varsa
 
 ```
-# pkill nodine
+pkill nodine
 ```
 
 # birkaç kez tekrarlayın.
