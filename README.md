@@ -5,46 +5,47 @@
 
 > ## [kurulum linki](https://github.com/brsbrc/Testnetler-ve-Rehberler/tree/main/Inery)
 
-Görev 1: Master Node Kaydetme Kısmına kadar herşeyi yapın.
+# Görev 1: Master Node Kaydetme Kısmına kadar herşeyi yapın.
 
-Loglar düzgün aksın, screenden çıkın
+# Loglar düzgün aksın, screenden çıkın
 
-İnery screenini Vs Silmeyin.
+# İnery screenini Vs Silmeyin.
 
-2-Ana ekranda, Terminalde
-
-```
-pkill nodine
-```
-
-Diyoruz. Dediğimizde loglar durucak. Sakın dokunmayın, CTRL A D yapıp screenden çıkıp. Ana ekranda devam edin
-
-Daha sonra
-
-```
-pidof nodine
-```
-
-Dediğimizde tepki yoksa devam ediyoruz. Tepki varsa
+# 2-Ana ekranda, Terminalde
 
 ```
 pkill nodine
 ```
 
-birkaç kez tekrarlayın.
+# Diyoruz. Dediğimizde loglar durucak. Sakın dokunmayın, CTRL A D yapıp screenden çıkıp. Ana ekranda devam edin
 
-3-) Terminalde aşağıdaki linkten snapshotu indirin.
+# Daha sonra
 
-https://snapshot.inery.io/ sitesine girin “curl” ile başlayan “.bin” ile biten kodu sunucuya yapıştırın.
+```
+# pidof nodine
+```
 
-Uzunca ismi olan snapshot dosyası inicek, ortalama 15mb olmasi gerek, wincp ile girip bakın. eğer doğru inmemişse, sayfayı yenileyip yenisini indirin.
+# Dediğimizde tepki yoksa devam ediyoruz. Tepki varsa
 
-4-)Daha Sonra uzunca ismi olan snapshots dosyasını wincp ile
+```
+# pkill nodine
+```
+
+# birkaç kez tekrarlayın.
+
+# 3-) Terminalde aşağıdaki linkten snapshotu indirin.
+
+> ## [snapshot linki](https://snapshot.inery.io/)  sitesine girin “curl” ile başlayan “.bin” ile biten kodu sunucuya yapıştırın.
+
+# Uzunca ismi olan snapshot dosyası inicek, ortalama 15mb olmasi gerek, wincp ile girip bakın. eğer doğru inmemişse, sayfayı yenileyip yenisini indirin.
+
+# 4-)Daha Sonra uzunca ismi olan snapshots dosyasını wincp ile
+
 inery-node/inery.setup/master.node/blockchain/data/snapshots
 
-Klasörünün içine atıyoruz.
+# Klasörünün içine atıyoruz.
 
-5-)Daha sonra şu 2 klasörü silin,
+# 5-)Daha sonra şu 2 klasörü silin,
 
 ```
 cd
@@ -58,19 +59,19 @@ rm -r inery-node/inery.setup/master.node/blockchain/data/blockchain
 rm -r inery-node/inery.setup/master.node/blockchain/data/state
 ```
 
-6-) Terminale Giriyoruz.
+# 6-) Terminale Giriyoruz.
 
 ```
 cd inery-node/inery.setup/master.node
 ```
 
-içine giriyoruz.
+# içine giriyoruz.
 
 ```
 nano snapshots.sh
 ```
 
-diyerek klasörün içine alttaki kodu düzenleyerek yapıştırıyoruz.
+# diyerek klasörün içine alttaki kodu düzenleyerek yapıştırıyoruz.
 
 HESAP_PUBLİC_KEY:HESAP_PRİVATE_KEY
 
@@ -80,7 +81,7 @@ HESAP_İSMİ
 
 SNAPSHOT_İSMİ
 
-7-) DEDİĞİM YERLERİ DÜZENLEYİN.
+# 7-) DEDİĞİM YERLERİ DÜZENLEYİN.
 
 ```
 #!/bin/bash
@@ -121,9 +122,9 @@ nodine --snapshot $DATADIR"/data/snapshots/SNAPSHOT_İSMİ" \
 echo $! > $DATADIR"/ined.pid"
 ```
 
-Kaydedip Çıkın
+# Kaydedip Çıkın
 
-8-) En son şu kodları girin. Terminalde
+# 8-) En son şu kodları girin. Terminalde
 
 ```
 cd
@@ -147,12 +148,12 @@ cd; source .bashrc; cd -
 ```
 
 
-Bunlarıda Girdikten Sonra
+# Bunlarıda Girdikten Sonra
 
 ```
 screen -r inery
 ```
 
-yazın Bloklara bakabilirsiniz esleşmesi 5dk sürer
+# yazın Bloklara bakabilirsiniz esleşmesi 5dk sürer
 
-Bunlarıda Yaptıktan sonra Kurulum floodundaki, Hesap onaylama kısmından devam edin
+# Bunlarıda Yaptıktan sonra Kurulum floodundaki, Hesap onaylama kısmından devam edin
