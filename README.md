@@ -1,10 +1,13 @@
 # İlk önce node kurmanız lazım,
 
 > ## [kurulum linki](https://github.com/brsbrc/Testnetler-ve-Rehberler/tree/main/Inery)
+> 
 
 # Görev 1: Master Node Kaydetme Kısmına kadar herşeyi yapın.
 
+
 # Loglar düzgün aksın, screenden çıkın
+
 
 
 # İnery screenini Vs Silmeyin.
