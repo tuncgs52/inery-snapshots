@@ -19,8 +19,7 @@
 pkill nodine
 ```
 
-# Diyoruz. Dediğimizde loglar durucak. Sakın dokunmayın, CTRL A D yapıp screenden çıkıp. Ana ekranda devam edin
-
+# Diyoruz. loglar durdumu emin olmak için tekrar screene girip ister bakın ister bakmayın. Ana Ekrandan devam ediyoruz...
 
 # Daha sonra
 
