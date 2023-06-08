@@ -81,7 +81,7 @@ cd inery-node/inery.setup/master.node
 nano snapshots.sh
 ```
 
-# diyerek klasörün içine alttaki kodu düzenleyerek yapıştırıyoruz.
+# 7.adımdaki kodları düzenleyerek yapıştırıyoruz. degişecek 4 tane kod var.
 
 HESAP_PUBLİC_KEY:HESAP_PRİVATE_KEY
 
