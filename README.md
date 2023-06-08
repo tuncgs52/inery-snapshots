@@ -13,9 +13,25 @@ Loglar düzgün aksın, screenden çıkın
 
 2-Ana ekranda, Terminalde
 
-“pkill nodine" Diyoruz. Dediğimizde loglar durucak. Sakın dokunmayın screenden çıkıp. Ana ekranda devam edin
+```
+pkill nodine
+```
 
-Daha sonra “pidof nodine” Dediğimizde tepki yoksa devam ediyoruz. Tepki varsa “pkill nodine” birkaç kez tekrarlayın.
+Diyoruz. Dediğimizde loglar durucak. Sakın dokunmayın, CTRL A D yapıp screenden çıkıp. Ana ekranda devam edin
+
+Daha sonra
+
+```
+pidof nodine
+```
+
+Dediğimizde tepki yoksa devam ediyoruz. Tepki varsa
+
+```
+pkill nodine
+```
+
+birkaç kez tekrarlayın.
 
 3-) Terminalde aşağıdaki linkten snapshotu indirin.
 
@@ -29,18 +45,30 @@ inery-node/inery.setup/master.node/blockchain/data/snapshots
 Klasörünün içine atıyoruz.
 
 5-)Daha sonra şu 2 klasörü silin,
-
-“cd"
+```
+cd
+```
+```
 rm -r inery-node/inery.setup/master.node/blockchain/data/blockchain
+```
 
+```
 rm -r inery-node/inery.setup/master.node/blockchain/data/state
+```
 
 6-) Terminale Giriyoruz.
 
+```
 cd inery-node/inery.setup/master.node
+```
+
 içine giriyoruz.
 
-“nano snapshots.sh” diyerek klasörün içine alttaki kodu düzenleyerek yapıştırıyoruz.
+```
+nano snapshots.sh
+```
+
+diyerek klasörün içine alttaki kodu düzenleyerek yapıştırıyoruz.
 
 HESAP_PUBLİC_KEY:HESAP_PRİVATE_KEY
 
